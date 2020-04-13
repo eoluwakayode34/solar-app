@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+label{
+    display: flex;
+    padding: .5rem;
+}
+
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+
+}
+
+.header{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+    padding: 4rem;
+}
+
+
+main{
+    width: 90%;
+    margin: 3rem auto;
+}
+
+fieldset{
+
+    margin: 3rem 0;
+    padding: 2rem;
+    
+}
+
+
+button{    
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    
+
+}
+
+    button:hover{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg,  rgba(253,29,29,1) 0%, rgba(131,58,180,1) 50%, rgba(252,176,69,1) 100%); 
+        
+    }
+
+legend{
+    font-size: 2rem;
+}
+
+footer{
+    padding: 2rem;
+    color: white;
+    background: blue;
+    text-align: center;
+}
